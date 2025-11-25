@@ -1,0 +1,6 @@
+- [x] Modify careerBot.py for conversational chat interface
+  - [x] Restructure session_state.history to list of dicts with 'role' and 'content'
+  - [x] Replace text_area and button with st.chat_input
+  - [x] Use st.chat_message to display chat history
+  - [x] Handle input submission: append user message, get AI response, append assistant message
+- [x] Test the app by running streamlit
